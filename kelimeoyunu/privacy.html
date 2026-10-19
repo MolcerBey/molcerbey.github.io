@@ -62,7 +62,7 @@
   <div class="mark">K</div>
   <h1>Kelime Ustası — Gizlilik Politikası</h1>
   <p class="meta">Paket adı: <code>com.molcerbey.kelimeustasi</code></p>
-  <p class="meta">Son güncelleme: 10 Ağustos 2026</p>
+  <p class="meta">Son güncelleme / Last updated: 20 Ekim 2026 / 20 October 2026</p>
   <div class="langbar">
     <a href="#tr">Türkçe</a>
     <a href="#en">English</a>
@@ -77,10 +77,11 @@
 Uygulamayı kullanarak bu politikada anlatılan uygulamaları kabul etmiş olursunuz.</p>
 
 <div class="box">
-  <p><strong>Kısaca:</strong> Uygulama sizden hesap açmanızı istemez; ad, e-posta,
-  telefon, kişiler, kesin konum, fotoğraf, kamera veya mikrofon verisi talep etmez.
-  Oyun ilerlemeniz cihazınızda saklanır. Bunun dışında reklam, analiz ve hata raporlama
-  için Google hizmetleri kullanılır ve bu hizmetler kendi verilerini toplar.</p>
+  <p><strong>Kısaca:</strong> Uygulama için ayrı bir hesap açmanız gerekmez. Oyun
+  ilerlemeniz cihazınızda saklanır. Play Games ile bağlantı kurulduğunda oyuncu
+  kimliğiniz ve görünen oyuncu adınız kullanılır; haftalık lig puanınız Google'a
+  gönderilir. Play Games bulut kaydı ilerlemenizi cihazlar arasında yedekleyebilir.
+  Reklam, analiz ve hata raporlama için de Google hizmetleri kullanılır.</p>
 </div>
 
 <h3>1. Veri sorumlusu ve iletişim</h3>
@@ -90,12 +91,13 @@ Gizlilik, erişim ve silme talepleri için:
 <p>Talebinize makul bir süre içinde, en geç 30 gün içinde yanıt verilir.</p>
 
 <h3>2. Cihazınızda kalan veriler</h3>
-<p>Aşağıdaki bilgiler yalnızca cihazınızın kendi depolamasında tutulur ve Play Games
-bulut kaydını kullanmadığınız sürece cihazınızdan çıkmaz:</p>
+<p>Aşağıdaki bilgilerin yerel kopyası cihazınızda tutulur. Play Games üzerinden
+gönderilen sıralama puanları ve bulut kaydı verileri 3. bölümde açıklanmıştır:</p>
 <ul>
   <li>Seviye ilerlemesi, tamamlanan bölümler, günlük ve haftalık bulmaca sonuçları</li>
   <li>Coin, can, seri (streak), istatistikler, başarımlar</li>
-  <li>Görev, sezon ve lig durumu</li>
+  <li>Görev ve sezon durumu, bu cihazdaki haftalık LP ve gönderim kuyruğu</li>
+  <li>Lig kuyruğunu bu kuruluma bağlayan rastgele kurulum kimliği</li>
   <li>Ses, titreşim, tema, dil ve günlük hatırlatıcı tercihleri</li>
   <li>Satın alınan ürünlerin sahiplik durumu</li>
 </ul>
@@ -127,6 +129,14 @@ veya uygulamayı kaldırabilirsiniz.</p>
     <td>Hataların tespiti ve giderilmesi</td>
   </tr>
   <tr>
+    <td>Google Play Games Services<br>(haftalık sıralama)</td>
+    <td>Play Games oyuncu kimliği, görünen oyuncu adı, haftalık lig puanı (LP)
+        ve sıralama; tabloda gösterilen diğer oyuncuların herkese açık adları,
+        puanları ve sıraları</td>
+    <td>Haftalık LP'nin Google'a gönderilmesi, gerçek oyuncu sıralamasının
+        alınması ve oyun içinde gösterilmesi</td>
+  </tr>
+  <tr>
     <td>Google Play Games Services<br>(bulut kaydı)</td>
     <td>Play Games oyuncu kimliği ve oyun ilerlemesi</td>
     <td>İlerlemenin cihazlar arasında yedeklenmesi. Yalnızca cihazınızda Play Games
@@ -141,6 +151,20 @@ veya uygulamayı kaldırabilirsiniz.</p>
   </tr>
 </table>
 </div>
+
+<h3>Play Games sıralaması ve seçimleriniz</h3>
+<p>Play Games profilinizi ve oturum açma tercihlerinizi Google yönetir. Oyuncu
+adınızın, puanınızın ve sıranızın herkese açık tabloda görünmesi Play Games profil
+ve oyun etkinliği görünürlük ayarlarınıza bağlıdır. Uygulama sıralama verilerini
+Google'dan alır; görünürlük ayarlarınızı Google Play Games üzerinden yönetebilirsiniz.
+<a href="https://support.google.com/googleplay/answer/3129346?hl=tr" target="_blank" rel="noopener">Google'ın profil ve gizlilik açıklamaları</a>.</p>
+<p>Çevrimdışı kazanılan LP cihazda bekletilir ve bağlantı kurulduğunda aynı haftanın
+puanı olarak gönderilmeye çalışılır. Kuyruk hafta, Play Games oyuncu kimliği ve bu
+kurulumla ilişkilendirilir; farklı hesaplara, sonraki haftaya veya başka bir kuruluma
+taşınmaz. İlk Play Games bağlantısından önce aynı hafta kazanılan yerel LP ilk
+bağlanan profile aktarılabilir. Lig kuyruğu Android yedeğine dahil edilmez.
+Bulut kaydı ayrıca oyun ilerlemesinin yedeklenmesini sağlar; lig kuyruğu
+bulut kaydının parçası değildir.</p>
 
 <p>Bu hizmetlerin kendi gizlilik politikaları:</p>
 <ul>
@@ -181,18 +205,30 @@ verirsiniz. Uygulama bu içeriği kendi sunucularına yüklemez.</p>
 <ul>
   <li><strong>Cihazdaki veriler:</strong> Siz uygulamayı kaldırana veya verileri
       temizleyene kadar saklanır.</li>
-  <li><strong>Analytics ve Crashlytics:</strong> Google'ın varsayılan saklama
-      sürelerine tabidir (genellikle olay verisi için 14 ay, çökme raporları için
-      90 güne kadar).</li>
+  <li><strong>Analytics:</strong> Kullanıcı ve olay düzeyindeki verilerin saklanması,
+      Analytics mülkünde yapılandırılan saklama ayarlarına bağlıdır. Standart
+      toplulaştırılmış raporlar bu saklama süresine tabi değildir.
+      <a href="https://support.google.com/analytics/answer/7667196?hl=tr" target="_blank" rel="noopener">Google'ın saklama açıklaması</a>.</li>
+  <li><strong>Crashlytics:</strong> Google, çökme izlerini ve ilişkili kimlikleri
+      90 gün sakladıktan sonra canlı ve yedek sistemlerden kaldırma sürecini başlatır.
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase saklama açıklaması</a>.</li>
   <li><strong>Bulut kaydı:</strong> Play Games hesabınızdan oyun verisini silene
       kadar saklanır.</li>
+  <li><strong>Sıralama:</strong> Haftalık görünüm yeni haftada yenilenir. Google'daki
+      puan ve profil kayıtlarının saklanması ve silinmesi Play Games ayarları ile
+      Google'ın veri politikalarına tabidir.</li>
 </ul>
 
 <h3>8. Verilerin silinmesi</h3>
-<p>Uygulamanın hesap sistemi yoktur, bu nedenle silinecek bir profil bulunmaz.</p>
+<p>Uygulama için ayrı bir hesap oluşturulmaz; bağlantı kurduğunuz Play Games
+profilini Google yönetir. Yerel veriler ve Google'daki oyun verileri ayrı tutulur.</p>
 <ul>
   <li><strong>Yerel veriler:</strong> Uygulama verilerini temizleyin veya uygulamayı kaldırın.</li>
-  <li><strong>Bulut kaydı:</strong> Play Games ayarlarından bu oyunun verisini silin.</li>
+  <li><strong>Play Games profili, sıralama ve bulut kaydı:</strong>
+      Google Play Games profil ve oyun verisi ayarlarından yönetilir.
+      <a href="https://support.google.com/googleplay/answer/9130646?hl=tr" target="_blank" rel="noopener">Google'ın oyun verisi ve profil silme yönergeleri</a>.
+      Cihazdaki uygulama verisini temizlemek, Google'daki kayıtları silmez;
+      Google'daki verileri silmek de cihazdaki yerel kopyayı silmez.</li>
   <li><strong>Analytics/Crashlytics kayıtları:</strong>
       <a href="mailto:molcer111@gmail.com">molcer111@gmail.com</a> adresine yazın;
       talebiniz teknik olarak mümkün olduğu ölçüde yerine getirilir.</li>
@@ -225,11 +261,11 @@ kabul ettiğiniz anlamına gelir.</p>
 <em>Wortmeister</em> and <em>Maestro de Palabras</em>, handles personal data.</p>
 
 <div class="box">
-  <p><strong>In short:</strong> The app does not ask you to create an account and does
-  not request your name, email, phone number, contacts, precise location, photos,
-  camera or microphone. Your game progress is stored on your device. Beyond that, the
-  app uses Google services for ads, analytics and crash reporting, and those services
-  collect their own data.</p>
+  <p><strong>In short:</strong> No separate account is required for this app. Your
+  game progress is stored on your device. When connected to Play Games, the app uses
+  your player ID and gamer display name and sends your weekly league points to
+  Google. Play Games cloud save can back up progress across devices. The app also
+  uses Google services for ads, analytics and crash reporting.</p>
 </div>
 
 <h3>1. Controller and contact</h3>
@@ -239,12 +275,13 @@ For privacy, access and deletion requests:
 <p>Requests are answered within a reasonable period, and no later than 30 days.</p>
 
 <h3>2. Data that stays on your device</h3>
-<p>The following is stored only in your device's own storage and does not leave it
-unless you use Play Games cloud save:</p>
+<p>A local copy of the following data is stored on your device. Leaderboard scores
+and cloud save data sent through Play Games are described in section 3:</p>
 <ul>
   <li>Level progress, completed chapters, daily and weekly puzzle results</li>
   <li>Coins, lives, streaks, statistics, achievements</li>
-  <li>Quest, season and league state</li>
+  <li>Quest and season state, weekly LP earned on this device and its submission queue</li>
+  <li>A random installation identifier binding the league queue to this installation</li>
   <li>Sound, haptics, theme, language and daily reminder preferences</li>
   <li>Entitlement status of purchased products</li>
 </ul>
@@ -274,6 +311,13 @@ uninstalling the app.</p>
     <td>Detecting and fixing defects</td>
   </tr>
   <tr>
+    <td>Google Play Games Services<br>(weekly leaderboard)</td>
+    <td>Play Games player ID, gamer display name, weekly league points (LP) and rank;
+        the public gamer names, scores and ranks of other players shown in the table</td>
+    <td>Sending weekly LP to Google, retrieving real player rankings and displaying
+        them in the game</td>
+  </tr>
+  <tr>
     <td>Google Play Games Services<br>(cloud save)</td>
     <td>Play Games player ID and game progress</td>
     <td>Backing up progress across devices. Active only if Play Games is enabled on
@@ -288,6 +332,20 @@ uninstalling the app.</p>
   </tr>
 </table>
 </div>
+
+<h3>Play Games rankings and your choices</h3>
+<p>Google manages your Play Games profile and sign-in preferences. Whether your gamer
+name, score and rank appear in a public leaderboard depends on your Play Games
+profile and game activity visibility settings. The app retrieves leaderboard data
+from Google; you can manage visibility through Google Play Games.
+<a href="https://support.google.com/googleplay/answer/3129346?hl=en" target="_blank" rel="noopener">Google's profile and privacy guidance</a>.</p>
+<p>LP earned offline waits on your device and is submitted for the same week when a
+connection is available. The queue is tied to its week, Play Games player ID and
+installation; it is not transferred to another account, a later week or another
+installation. Local LP earned before the first Play Games connection can be assigned
+to the first connected profile within that week. The league queue is excluded from
+Android backup. Cloud save separately backs up game
+progress; it does not contain the league queue.</p>
 
 <h3>4. Ads, consent and your choices</h3>
 <p>The app shows ads. In the European Economic Area, the United Kingdom and
@@ -316,18 +374,31 @@ this content to any server of its own.</p>
 <h3>7. Retention</h3>
 <ul>
   <li><strong>On-device data:</strong> kept until you clear app data or uninstall.</li>
-  <li><strong>Analytics and Crashlytics:</strong> subject to Google's default retention
-      periods (typically up to 14 months for event data and up to 90 days for crash
-      reports).</li>
+  <li><strong>Analytics:</strong> Retention of user-level and event-level data depends
+      on the retention settings configured for the Analytics property. Standard
+      aggregated reports are not subject to that retention period.
+      <a href="https://support.google.com/analytics/answer/7667196?hl=en" target="_blank" rel="noopener">Google's retention guidance</a>.</li>
+  <li><strong>Crashlytics:</strong> Google retains crash traces and associated
+      identifiers for 90 days before starting their removal from live and backup
+      systems.
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase's retention guidance</a>.</li>
   <li><strong>Cloud save:</strong> kept until you delete this game's data from your
       Play Games account.</li>
+  <li><strong>Leaderboards:</strong> the weekly view resets for a new week. Retention
+      and deletion of score and profile records held by Google are governed by
+      Play Games settings and Google's data policies.</li>
 </ul>
 
 <h3>8. Deleting your data</h3>
-<p>The app has no account system, so there is no profile to delete.</p>
+<p>No separate account is created for this app. Google manages the Play Games profile
+you connect. Local app data and game data held by Google are stored separately.</p>
 <ul>
   <li><strong>Local data:</strong> clear the app's data or uninstall the app.</li>
-  <li><strong>Cloud save:</strong> delete this game's data in your Play Games settings.</li>
+  <li><strong>Play Games profile, rankings and cloud save:</strong> manage these
+      through your Google Play Games profile and game data settings.
+      <a href="https://support.google.com/googleplay/answer/9130646?hl=en" target="_blank" rel="noopener">Google's instructions for deleting game data and profiles</a>.
+      Clearing local app data does not delete Google's records; deleting game data
+      held by Google does not clear the local copy on your device.</li>
   <li><strong>Analytics/Crashlytics records:</strong> write to
       <a href="mailto:molcer111@gmail.com">molcer111@gmail.com</a>; requests are honoured
       as far as technically possible.</li>
